@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+    font-family: 'Roboto', sans-serif;}
 
 body{
     display: flex;
@@ -15,7 +15,7 @@ body{
 }
 
 
-
+/*NAVBAR*/
 .navbar{
     height: 50px;
     display:flex;
@@ -26,6 +26,82 @@ body{
     display: flex;
     justify-content: space-between;
     width: 50vw;
+    align-items: center;
+}
+
+
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/*HERO*/
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.container-hero{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero-text{
+    display:flex ;
+    flex-direction: column;
+    gap: 16px;
+}
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-text button{
+    background-color:#3882f6;
+    padding: 8px 36px;
+    border: 0px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 136px;
+
+}
+
+img{
+    width: 25vw;
+    max-height: 250px;
+    flex-shrink: 0;
+}
+
+/*IMGS*/
+
+.imgs{
+    display: flex;
+    justify-content: center;
 }
 
 .footer{
