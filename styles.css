@@ -104,6 +104,13 @@ img{
     justify-content: center;
 }
 
+.container-imgs{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+}
+
 .footer{
     height: 50px;
 }
