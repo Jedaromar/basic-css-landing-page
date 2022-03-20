@@ -14,10 +14,13 @@ body{
     min-height: 150vh;
 }
 
+.navbar,
+.footer{
+    height: 60px;
+}
 
 /*NAVBAR*/
 .navbar{
-    height: 50px;
     display:flex;
     justify-content: center;
 }
@@ -166,6 +169,9 @@ img{
     flex-direction: column;
     justify-content: center;
     width: 60vw;
+    padding: 20px;
+    gap:12px;
+    width: 50vw;
 
 }
 
@@ -176,8 +182,70 @@ img{
     font-style: italic;
 }
 
+.quote-text{
+    text-align: justify;
+}
+
+.signature{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+}
+
+/*CALL*/
+
+.call{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    
+}
+
+.container-call{
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #3882f6;
+    align-items: center;
+}
+
+.call-to-action{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.call-text,
+.call-to-action button,
 .footer{
-    height: 50px;
+    color:#e5e7eb;
+    font-size: 18px;
+
+}
+
+.call-to-action button{
+    background-color: #3882f6;
+    border: solid 2px #e5e7eb;
+    border-radius: 8px;
+    padding: 6px 40px;
+    font-weight: bold;
+    
+    
+}
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero,
